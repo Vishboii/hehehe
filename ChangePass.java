@@ -114,6 +114,7 @@ try {
             l="update login set password = '"+k+"' where username='"+n+"';";
             st.executeUpdate(l);
              JOptionPane.showMessageDialog(null,"updated successfully");
+             //hi
                    
           }
 catch (Exception e) {
